@@ -692,7 +692,7 @@ gsap.to(".sns_hobber", {
         trigger: ".sns_hobber", // トリガーとなる要素
         start: "top-=400 center+=100", // アニメーションが始まる位置
         end: "top-=400 center-=100",
-          markers: true, // マーカーを表示（デバッグ用）
+        //   markers: true, // マーカーを表示（デバッグ用）
         scrub: true, // スクロールに合わせてアニメーションを進行
     },
 });
